@@ -1,10 +1,13 @@
 # PM2.5 Forecast Dashboard (Kathmandu Valley)
 
-Streamlit app that predicts the next 6 **or** 24 hours of PM2.5 from the
+Streamlit web app that predicts the next 6 **or** 24 hours of PM2.5 from the
 last 24 hours of observed data, using a feature-attention LSTM. Each
 horizon has its own dedicated model, trained natively for that output
 length — there is no recursive extension and no forecasted weather
 involved anywhere in the pipeline.
+
+https://pm-25-prediction-using-attention-based-lstm-x86pzsqie2saakxs9a.streamlit.app/
+** note ** You may have to manually upload the model and scalar in the sidebar of the app, you can download it from Updated UI/models folder from the repo.
 
 ## How it works
 
